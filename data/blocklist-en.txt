@@ -1,0 +1,11 @@
+# demo blocklist - a handful of typical entries for the hazard check
+sex
+rape
+rapist
+penis
+anal
+ass
+shit
+piss
+porn
+fuck

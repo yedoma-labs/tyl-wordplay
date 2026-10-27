@@ -1,0 +1,249 @@
+# demo english word list - tiny, for docs and tests only; glosses are English meanings
+a
+about
+above
+after
+again
+against
+all
+also
+an
+and
+angel	heavenly being
+any
+apart
+arc
+are
+arm	limb
+art	creative work
+as
+at
+ate
+bad	poor, unpleasant
+bald	hairless
+bank	money institution
+bar
+bat
+be
+bed
+been
+before
+bet
+between
+bid
+bin
+bit
+bod
+bore
+bot
+both
+bowl
+bra
+brain
+brand
+brief	short
+bud
+but
+by
+can
+car
+cart
+carton
+cat
+chance	opportunity
+change
+charm
+cheer
+chef	head cook
+con
+cow
+cream
+dab
+dish
+dog
+eat
+eta
+ex
+exchange
+expert
+experts
+eye
+fan
+fast	quick
+fin
+fish
+for
+fowl
+from
+fun
+game
+gift	a present
+god
+gone
+good
+handy	useful
+hat
+he
+hell	the underworld
+help
+her
+here
+his
+hit
+hose	flexible tube
+hot
+house
+how
+howl
+hut	small cabin
+i
+ice
+icecream
+if
+in
+into
+is
+island
+it
+jaw
+just
+keep
+kettle
+kind	friendly, type
+label
+land
+last
+law
+let
+lip
+loop
+lop
+low
+man
+mark	sign
+men
+min
+mist	fine fog
+mow
+name
+new
+next
+no
+not
+now
+nowhere
+of
+off
+old
+on
+one
+only
+or
+orb
+our
+out
+over
+owl
+pan
+part
+pat
+paw
+pen
+pet
+phone
+pin
+pit
+plane
+planet
+plant
+play
+pot
+pun
+put
+rain
+rapist
+rat	a rodent
+raw
+rind	fruit skin
+rob
+robe
+rock	stone, music
+rolling
+room
+rose	flower
+said
+sail
+sale
+same
+sat
+saw
+scream
+sea
+see
+set
+she
+sit
+sky
+some
+sot
+stone
+stove
+sun
+tab
+tag	label
+tan
+tar
+tea
+ten
+that
+the
+their
+them
+then
+therapist
+there
+these
+they
+thing
+think
+this
+time
+tin
+to
+toast
+ton
+too
+train
+tree
+tun
+two
+under
+up
+use
+very
+wand	magic stick
+want
+water
+way
+we
+well
+were
+wet
+what
+when
+where
+which
+while
+who
+why
+will
+wish
+with
+word
+work
+world
+would
+wow
+year
+you
+your

@@ -1,0 +1,106 @@
+# demo german word list - tiny, for docs and tests only; glosses are English meanings
+abend
+aber
+angel	fishing rod
+arm	poor
+art	kind, sort
+bad	bath
+bald	soon
+ball
+band
+bank	bench, bank
+baum
+berg
+bild
+blume
+brief	letter
+brot
+buch
+bund
+chance	chance
+chef	boss
+das
+der
+die
+du
+ein
+eine
+er
+erde
+es
+fast	almost
+fenster
+feuer
+fluss
+frau
+fund
+gift	poison
+grund
+hand
+handy	mobile phone
+haus
+hell	bright
+hose	trousers
+hund
+hut	hat
+ich
+ihr
+ist
+jahr
+kind	child
+kinder
+land
+leben
+liebe
+lied
+luft
+mann
+mark	marrow
+maus
+meer
+mehl
+milch
+mist	manure, rubbish
+monat
+morgen
+mund
+nacht
+nicht
+oder
+rat	advice
+regen
+reise
+rind	beef
+rock	skirt
+rose	rose
+rund
+sand
+schnee
+see
+sie
+sind
+sonne
+stuhl
+stunde
+sturm
+tag	day
+tagen
+tal
+tisch
+tuer
+und
+wand	wall
+wann
+war
+warum
+was
+wasser
+wer
+wie
+wind
+wir
+wo
+woche
+wunde
+wunder
+zeit

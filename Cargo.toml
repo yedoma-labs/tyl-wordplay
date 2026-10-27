@@ -1,0 +1,33 @@
+[package]
+name = "tyl-wordplay"
+version = "0.1.0"
+edition = "2021"
+authors = ["yedoma-labs"]
+description = "Wordplay engine for Rust - finds, explains and generates forms of wordplay no other crate covers: nests, reparses, vowel wheels, zwitters, carousels, themed swaps and name hazards"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yedoma-labs/tyl-wordplay"
+homepage = "https://github.com/yedoma-labs/tyl-wordplay"
+documentation = "https://docs.rs/tyl-wordplay"
+readme = "README.md"
+keywords = ["wordplay", "puns", "naming", "text", "language"]
+categories = ["text-processing", "algorithms"]
+exclude = [
+    ".github/*",
+    ".githooks/*",
+    "release-plz.toml",
+    "target/*",
+]
+
+[dependencies]
+
+[lib]
+name = "tyl"
+path = "src/lib.rs"
+
+[[example]]
+name = "name_check"
+path = "examples/name_check.rs"
+
+[[example]]
+name = "tour"
+path = "examples/tour.rs"
