@@ -50,7 +50,7 @@ pub use finding::{Finding, Form};
 pub use hazard::{Hazard, HazardConfig, HazardKind};
 pub use lexicon::{Lexicon, WordSet};
 pub use nest::{all_nests, insert_everywhere, nests_of, Nest, NestConfig};
-pub use playground::Playground;
+pub use playground::{Playground, PlaygroundConfig, ScanError};
 pub use reparse::{reparse, Reparse, ReparseConfig};
 pub use swap::{swaps, Swap, SwapConfig};
 pub use text::{SHORT_WORDS_DE, SHORT_WORDS_EN};

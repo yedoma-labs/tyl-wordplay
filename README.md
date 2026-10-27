@@ -92,6 +92,21 @@ for s in swaps(&kitchen, "a rolling stone", &SwapConfig::default()) {
 }
 ```
 
+For untrusted text, bound the work with a `Playground` configuration and `try_scan`, which refuses text longer than `max_input_chars` (256 by default). `PlaygroundConfig` also sets the limits of each detector:
+
+```rust
+use tyl::{sample, Playground, PlaygroundConfig, ScanError};
+
+let mut cfg = PlaygroundConfig::default();
+cfg.max_input_chars = 64;
+cfg.reparse.max_results = 5;
+let en = sample::english();
+match Playground::new(&en).with_config(cfg).try_scan(&input) {
+    Ok(findings) => { /* ... */ }
+    Err(ScanError::TooLong { chars, max }) => eprintln!("{chars} characters, limit {max}"),
+}
+```
+
 Check names from the command line (exit code 1 when a hazard is found, handy in CI):
 
 ```bash
@@ -101,7 +116,7 @@ cargo run --example tour        # every form once
 
 ## Choosing word lists
 
-The bundled lists (`tyl::sample`) are a few hundred words, enough for the docs and tests. A raw system dictionary works but is full of fragments (`ssi`, `pon`), which shows up as noise in nests and long readings. For production use a frequency-filtered list of the language of your text, and set `HazardConfig::short_words` / `ReparseConfig::short_words` (`SHORT_WORDS_EN`, `SHORT_WORDS_DE`) because words under three letters are only accepted from that allowlist.
+The bundled lists (`tyl::sample`) are a few hundred words, enough for the docs and tests. A raw system dictionary works but is full of fragments (`ssi`, `pon`), which shows up as noise in nests and long readings. For production use a frequency-filtered list of the language of your text. `WordSet::from_frequency_file(path, 1000)` reads the common `word count` layout and keeps the words seen at least 1000 times. Set `HazardConfig::short_words` / `ReparseConfig::short_words` (`SHORT_WORDS_EN`, `SHORT_WORDS_DE`) because words under three letters are only accepted from that allowlist.
 
 You decide what goes on the blocklist. The bundled `blocklist_en` is a ten-word demo, not a moderation list.
 
