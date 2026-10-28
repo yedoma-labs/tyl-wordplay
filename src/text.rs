@@ -7,7 +7,8 @@
 pub fn fold(word: &str) -> String {
     let mut out = String::with_capacity(word.len());
     for c in word.chars() {
-        if c == 'ß' {
+        // `ẞ` (U+1E9E) lowercases to `ß`, so it must be expanded like `ß` itself.
+        if c == 'ß' || c == 'ẞ' {
             out.push_str("ss");
         } else if c.is_alphabetic() {
             out.extend(c.to_lowercase());
@@ -56,6 +57,13 @@ mod tests {
     fn folds_case_eszett_and_punctuation() {
         assert_eq!(fold("Straße!"), "strasse");
         assert_eq!(fold("Ärger"), "ärger");
+    }
+
+    #[test]
+    fn capital_sharp_s_folds_like_eszett() {
+        // U+1E9E (capital sharp s) must not survive as "ß": "STRAẞE" is "strasse"
+        assert_eq!(fold("STRAẞE"), "strasse");
+        assert_eq!(fold("straße"), fold("STRAẞE"));
     }
 
     #[test]
