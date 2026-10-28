@@ -1,7 +1,5 @@
 //! # tyl-wordplay
 //!
-//! *tyl* (тыл; Sakha) = "word, language".
-//!
 //! A wordplay engine. Most crates implement one classic trick (anagrams, palindromes,
 //! spoonerisms). This one defines **seven forms as measurable types**, runs them through
 //! one lexicon-agnostic engine and makes every result **explain itself**:

@@ -17,8 +17,6 @@
 [![Dependencies](https://img.shields.io/badge/dependencies-0-success)](Cargo.toml)
 [![Conventional Commits](https://img.shields.io/badge/commits-conventional-fe5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org/)
 
-*tyl* (тыл; Yakutian/Sakha) = "word, language" — small, exact, and it says what it means
-
 ## Why tyl-wordplay?
 
 **The Problem:** Wordplay crates implement one classic trick each (`anagram`, `palindrome`, `portmanteau`, `zummi` for spoonerisms), return bare strings, and say nothing about *why* a result counts. And nobody checks the thing that costs real money: the name you are about to print on a box, register as a domain or use as a hashtag, read with the spaces in a different place.
