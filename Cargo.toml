@@ -1,6 +1,6 @@
 [package]
 name = "tyl-wordplay"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["yedoma-labs"]
 description = "Wordplay engine for Rust - finds, explains and generates forms of wordplay no other crate covers: nests, reparses, vowel wheels, zwitters, carousels, themed swaps and name hazards"
